@@ -101,12 +101,12 @@ html {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   max-width: 196px;
   padding-top: 3px;
-  white-space: pre;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
 }
