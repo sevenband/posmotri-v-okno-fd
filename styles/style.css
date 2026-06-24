@@ -26,7 +26,7 @@ html {
   align-items: center;
   width: 100%;
   height: 100%;
-  gap: 29px;
+  gap: 26px;
   margin-right: 30px;
   margin-left: 30px;
   padding-bottom: 30px;
@@ -45,19 +45,18 @@ html {
   height: 298px;
   overflow: auto;
   gap: 30px;
-  padding-left: 3px;
   padding-bottom: 3px;
-  padding-right: 3px;
+  padding-left: 3px;
 }
 
 .content__list-item {
-  padding-left: 3px 3px 3px 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .content__details {
-  height: 534px;
   width: 100%;
-  padding-top: 9px;
+  padding-top: 14px;
 }
 
 .title {
@@ -67,7 +66,7 @@ html {
   font-size: 75px;
   line-height: 94%;
   margin-bottom: 21px;
-  padding-left: 1px;
+  padding-left: 4px;
 }
 
 .content__accent {
@@ -88,7 +87,7 @@ html {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
-  font-style: bold;
+  font-style: normal;
   line-height: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -107,6 +106,9 @@ html {
   text-overflow: ellipsis;
   max-width: 196px;
   padding-top: 3px;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .result__video-container {
@@ -119,7 +121,7 @@ html {
 .result__video {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .result {
@@ -151,7 +153,7 @@ html {
   background-color: #545050;
 }
 
-.content__video-card:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
@@ -258,13 +260,14 @@ input[type="text"] {
   border: 1px solid #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   color: #fff;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
+  min-height: 34px;
   cursor: pointer;
 }
 
 .search-form__submit-button {
-  height: 34px;
   width: 194px;
   justify-content: center;
   align-items: center;
@@ -272,7 +275,6 @@ input[type="text"] {
 }
 
 .more-button {
-  min-height: 34px;
   width: 100%;
 }
 
