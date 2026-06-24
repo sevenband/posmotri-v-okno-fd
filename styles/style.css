@@ -149,7 +149,7 @@ html {
   object-position: right;
 }
 
-.content__video-card:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
